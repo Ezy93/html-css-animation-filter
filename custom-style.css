@@ -16,11 +16,20 @@
     width: 100%;
 }
 
-/* soluzione terso esercizio */
+/* soluzione terzo esercizio */
 .ex-3-square{
     transition: border-radius 0.5s ease-out 0.3s ;
 }
 
 .ex-3-square:hover{
     border-radius: 50%;
+}
+
+/* soluzione quarto esercizio */
+.ex-4-square{
+    transition: opacity 0.7s ease-in ;
+}
+
+.ex-4-square:hover{
+    opacity: 0%;
 }
