@@ -64,3 +64,13 @@
 .ex-7-img:hover{
     filter: sepia(0.6) contrast(105%);
 }
+
+/* soluzione ottavo esercizio */
+.ex-8-img{
+    transition: border-radius 1s, filter 1s ease-in-out ;
+}
+
+.ex-8-img:hover{
+    border-radius: 5%;
+    filter: grayscale(70%) sepia(0.4) ;
+}
