@@ -1,7 +1,18 @@
+/* soluzione primo esercizio */
 .ex-1-square{
     transition: background-color 5s;
 }
 
 .ex-1-square:hover{
     background-color: red;
+}
+
+/* soluzione secondo esercizio */
+
+.ex-2-square{
+    transition: width 2s ease-in;
+}
+
+.ex-2-square:active{
+    width: 100%;
 }
