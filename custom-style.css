@@ -55,3 +55,12 @@
 .ex-6-img:hover{
     filter: grayscale();
 }
+
+/* soluzione settimo esercizio */
+.ex-7-img{
+    transition: filter 1s ease-in-out;
+}
+
+.ex-7-img:hover{
+    filter: sepia(0.6) contrast(105%);
+}
