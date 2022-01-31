@@ -33,3 +33,16 @@
 .ex-4-square:hover{
     opacity: 0%;
 }
+
+/* soluzione quinto esercizio */
+.ex-5-square{
+    transition: transform 0.9s ease-out;
+}
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(0.5);
+}
