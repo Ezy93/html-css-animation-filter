@@ -85,3 +85,20 @@
     filter: grayscale(70%) sepia(0.4);
     transform: scale(150%);
 }
+
+/* soluzione decimo esercizio */
+.ex-10-icon{
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
