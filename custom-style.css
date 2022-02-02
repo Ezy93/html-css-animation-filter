@@ -102,3 +102,66 @@
     }
 
 }
+
+/* soluzione undicesimo esercizio */
+
+.ex-11-icon:hover{
+    animation: rotate 4s
+}
+
+@keyframes rotate{
+    95%{
+        transform: rotate(290deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+
+/*soluzione dodicesimo esercizio */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: move-right;
+    animation-duration: 2ms;
+    animation-timing-function: linear;
+}
+
+@keyframes move-right{
+    0%{
+        left: 10%
+    }
+
+    50%{
+        left: 68%;
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: move-bot;
+    animation-duration: 2ms;
+    animation-timing-function: linear;
+}
+
+@keyframes move-bot{
+    0%{
+        right: 10%;
+    }
+
+    50%{
+        right: 68%;
+    }
+
+    100%{
+        right: 10%;
+    }
+}
+
+
+
+
